@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\source\converter.cpp" />
+    <ClCompile Include="..\..\source\filesindirectoryfinder.cpp" />
+    <ClCompile Include="..\..\source\threadutil.cpp" />
+    <ClCompile Include="..\..\source\waveheaderutil.cpp" />
+    <ClCompile Include="..\..\source\wavtomp3.cpp" />
+    <ClCompile Include="..\..\source\bitspersampleutil.cpp" />
+    <ClCompile Include="..\..\source\bigchunkreader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\filesindirectoryfinder.h" />
+    <ClInclude Include="..\..\source\threadutil.h" />
+    <ClInclude Include="..\..\source\waveheaderutil.h" />
+    <ClInclude Include="..\..\source\wavtomp3.h" />
+    <ClInclude Include="..\..\source\bitspersampleutil.h" />
+    <ClInclude Include="..\..\source\bigchunkreader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\lame-3.99.5\vc_solution\vc9_libmp3lame.vcproj" />
+  </ItemGroup>
+</Project>
